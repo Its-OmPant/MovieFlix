@@ -1,11 +1,12 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { Text } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 const Bookmarks = () => {
 	return (
-		<View>
-			<Text>Bookmarks</Text>
-		</View>
+		<SafeAreaView className="bg-primary flex-1 justify-center items-center">
+			<Text className="text-white">Bookmarks Page</Text>
+		</SafeAreaView>
 	);
 };
 
