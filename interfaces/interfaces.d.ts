@@ -75,3 +75,8 @@ interface TrendingCardProps {
 	movie: TrendingMovie;
 	index: number;
 }
+
+interface MovieInfoProp {
+	label: string;
+	value: string | null;
+}
